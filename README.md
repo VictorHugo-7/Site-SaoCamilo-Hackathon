@@ -14,7 +14,7 @@
 |---------------------------------|------------------------------------------------------------------------------------------------------------|
 | Alvaro Nogueira Junqueira Souza |  <img src="https://github.com/user-attachments/assets/50c2ac2c-70fa-4c62-8f46-4b056f2288a4" width="100" /> |
 | Lucas Novaes de Sá Ferreira     |  <img src="https://github.com/user-attachments/assets/45b527b9-1e1c-40af-877d-ace876f76bac" width="100" /> |
-| Victor Hugo Gaetano             |  <img src="https://github.com/user-attachments/assets/4ef6a536-96fd-46e8-9fb0-f0855e8a07bf" width="100" /> |
+| Victor Hugo Gaetano             |  <img src="https://avatars.githubusercontent.com/u/156820479?v=4" width="100" /> |
 
 
 
