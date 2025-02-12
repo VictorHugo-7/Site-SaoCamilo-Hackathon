@@ -1,5 +1,5 @@
 <!--TÍTULO-->
-# Site Fisiofit <img src="https://cdn-icons-png.flaticon.com/128/3208/3208998.png" height="30px" alt="Fisioterapia">
+# Sistema | Fisiofit <img src="https://cdn-icons-png.flaticon.com/128/3208/3208998.png" height="30px" alt="Fisioterapia">
 
 
 <!--DESCRIÇÃO-->
@@ -23,6 +23,7 @@
 
 
 <!--PROTÓTIPO-->
+![Protótipo](https://github.com/user-attachments/assets/51bd98ae-4eec-45db-b85a-58a9a7a18348)
 
 
 <!--PARTICIPANTES-->
