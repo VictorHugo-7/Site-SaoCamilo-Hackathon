@@ -1,9 +1,9 @@
 <!--TÍTULO-->
-# Sistema Fisiofit <img src="https://cdn-icons-png.flaticon.com/128/3208/3208998.png" height="30px" alt="Fisioterapia">
+# Sistema FisioFit <img src="https://cdn-icons-png.flaticon.com/128/3208/3208998.png" height="30px" alt="Fisioterapia">
 
 
 <!--DESCRIÇÃO-->
-> Bem-vindo ao sistema Fisiofit.<br>
+> Bem-vindo ao sistema FisioFit.<br>
 > O projeto teve início durante o Hackathon promovido pelo Instituto Mauá de Tecnologia em parceria com a Universidade São Camilo e, agora, está sendo desenvolvido de forma independente.
 > O objetivo é sugerir exercícios simples de alongamento ou respiração, auxiliando os usuários a incorporarem práticas de autocuidado em suas rotinas diárias.
 
