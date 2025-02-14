@@ -25,7 +25,8 @@
 
 <!--PROTÓTIPO-->
 ## Protótipo
-![Protótipo](https://github.com/user-attachments/assets/e7ffd15c-254c-41e8-8bc8-ae2936abd08f)
+![Protótipo](https://github.com/user-attachments/assets/8c5580af-eaaa-4ac5-af5c-92a660bedf01)
+
 
 
 
