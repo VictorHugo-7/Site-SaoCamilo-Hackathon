@@ -25,9 +25,7 @@
 
 <!--PROTÓTIPO-->
 ## Protótipo
-![Protótipo](https://github.com/user-attachments/assets/8c5580af-eaaa-4ac5-af5c-92a660bedf01)
-
-
+![Protótipo](https://github.com/user-attachments/assets/ecfc51b0-f545-461d-b302-04d17c2dedaa)
 
 
 <!--PARTICIPANTES-->
