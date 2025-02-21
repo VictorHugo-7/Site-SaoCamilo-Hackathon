@@ -4,7 +4,7 @@
 
 <!--DESCRIÇÃO-->
 > Bem-vindo ao sistema FisioFit.<br>
-> O projeto teve início durante o Hackathon promovido pelo Instituto Mauá de Tecnologia em parceria com a Universidade São Camilo e, agora, está sendo desenvolvido de forma independente.
+> O projeto teve início durante o Hackathon promovido pelo Instituto Mauá de Tecnologia em parceria com a Universidade São Camilo e, agora, está sendo desenvolvido de forma independente pelo grupo formado no Hackathon.
 > O objetivo é sugerir exercícios simples de alongamento ou respiração, auxiliando os usuários a incorporarem práticas de autocuidado em suas rotinas diárias.
 
 
