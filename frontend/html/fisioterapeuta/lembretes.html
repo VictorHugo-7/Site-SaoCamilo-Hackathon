@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon//favicon-16x16.png">
+    <link rel="manifest" href="../../images/favicon/site.webmanifest">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../../css/menu.css">
+    <link rel="stylesheet" href="../../css/fisioterapeuta/lembretes.css">
+
+    <!-- Link Ícones | https://cdnjs.com/libraries/font-awesome | https://fontawesome.com/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Título -->
+    <title>FisioFit - Lembretes</title>
+</head>
+
+<body>
+
+    <!-- Menu Temporário -->
+    <div class="p-3" style="text-align: center;">
+        <a href="../../html/fisioterapeuta/lembretes.html">Lembretes Fisioterapeuta</a><br>
+        <a href="../../html/paciente/lembretes.html">Lembretes Paciente</a>
+    </div>
+
+    <!-- Section -->
+    <main>
+        <div class="my-lembretes-divisao m-5">
+
+            <!-- Faixa Vermelha -->
+            <div class="my-lembretes-faixaVermelhaLembretes text-center">Encaminhar Lembretes para o Paciente</div>
+
+            <!-- Formulário -->
+            <form class="container px-5 py-4">
+
+                <!-- Nome Fisioterapeuta e Paciente -->
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="fisioterapeuta" class="form-label">Nome do Fisioterapeuta *</label>
+                        <input type="text" id="fisioterapeuta" class="form-control" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="paciente" class="form-label">Nome do Paciente *</label>
+                        <input type="text" id="paciente" class="form-control" required>
+                    </div>
+                </div>
+
+                <!-- Exercício, Sessões por Semana, Sessões por Dia -->
+                <div class="row g-3 mt-3">
+                    <div class="col-md-4">
+                        <label for="exercicio" class="form-label">Exercício *</label>
+                        <input type="text" id="exercicio" class="form-control" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="sessoesSemana" class="form-label">Sessões por Semana *</label>
+                        <input type="text" id="sessoesSemana" class="form-control" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="sessoesDia" class="form-label">Sessões por Dia *</label>
+                        <input type="text" id="sessoesDia" class="form-control" required>
+                    </div>
+                </div>
+
+                <!-- Séries, Repetições, Tempo por Série -->
+                <div class="row g-3 mt-3">
+                    <div class="col-md-4">
+                        <label for="series" class="form-label">Séries *</label>
+                        <input type="text" id="series" class="form-control" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="repeticoes" class="form-label">Repetições *</label>
+                        <input type="text" id="repeticoes" class="form-control" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="tempoPorSerie" class="form-label">Tempo por Série *</label>
+                        <input type="text" id="tempoPorSerie" class="form-control" required>
+                    </div>
+                </div>
+
+                <!-- URL do Vídeo de Demonstração -->
+                <div class="row g-3 mt-3">
+                    <div class="col">
+                        <label for="urlVideo" class="form-label">URL do Vídeo de Demonstração *</label>
+                        <input type="text" id="urlVideo" class="form-control" required>
+                    </div>
+                </div>
+
+                <!-- Observações -->
+                <div class="row g-3 mt-3">
+                    <div class="col">
+                        <label for="observacoes" class="form-label">Observações *</label>
+                        <textarea id="observacoes" class="form-control" rows="5"
+                            placeholder="Insira observações adicionais..." required></textarea>
+                    </div>
+                </div>
+
+                <!-- Btn Salvar Lembrete -->
+                
+                <button>Banco</button>
+            </form>
+            <button class="my-lembretes-btnSalvarLembrete mt-3" onclick="pegarDadosLembretes()">Encaminhar</button>
+        </div>
+    </main>
+
+    <script src="../../script/fisioterapeuta/lembretes.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -7,29 +7,31 @@
     --pretoSecundario: #111111;
 }
 
-
 .my-lembretes-divisao{
-    border: 1px solid black;
+    border: 1px solid var(--preto);
     border-radius: 10px;
-    height: 100%;
-    padding: 0px;
 }
 
 .my-lembretes-faixaVermelhaLembretes{
-    background-color: var(--vermelhoClaro);
-    text-align: center;
+    background-color: var(--vermelhoEscuro);
     color: var(--branco);
     font-weight: 500;
     font-size: 18px;
+    text-align: center;
     padding: 10px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 9px 9px 0 0;
 }
 
-.my-lembretes-botaoSalvarPrescricao{
-    background-color: var(--vermelhoClaro);
+.my-lembretes-btnSalvarLembrete{
+    background-color: var(--vermelhoEscuro);
+    color: var(--branco);
+    width: 100%;
     padding: 10px;
     border-radius: 10px;
-    color: var(--branco);
     font-weight: 500;
     border: none;
+}
+
+.my-lembretes-btnSalvarLembrete:hover{
+    opacity: 90%;
 }

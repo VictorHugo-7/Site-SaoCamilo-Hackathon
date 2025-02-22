@@ -1,0 +1,46 @@
+:root {
+    --cinza: #6C757D;
+    --branco: #ffffff;
+    --vermelhoClaro: #F2676E;
+    --vermelhoEscuro: #B70F18;
+    --preto: #000000;
+    --pretoSecundario: #111111;
+}
+
+.my-lembretes-divisao{
+    border: 1px solid var(--preto);
+    border-radius: 10px;
+}
+
+.my-lembretes-faixaVermelhaLembretes{
+    background-color: var(--vermelhoEscuro);
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 9px 9px 0 0;
+}
+
+.my-lembretes-tabelaIcones{
+    border: 1.5px solid var(--preto);
+    color: var(--preto);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#my-lembretes-tabelaIconeConcluir, 
+#my-lembretes-tabelaIconeVerDetalhes {
+    transition: background-color 0.2s ease, color 0.3s ease;
+}
+
+#my-lembretes-tabelaIconeConcluir:hover{
+    background-color: green;
+    color: var(--branco);
+}
+
+#my-lembretes-tabelaIconeVerDetalhes:hover{
+    background-color: var(--cinza);
+    color: var(--branco);
+}
