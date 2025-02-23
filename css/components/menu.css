@@ -1,0 +1,74 @@
+.my-menu-navbar {
+    text-align: center;
+}
+
+.my-menu-efeito {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    top: 0;
+    width: 100%;
+    margin-bottom: 3.5%;
+}
+
+/* Logo */
+.my-menu-logo {
+    height: 50px;
+}
+
+.my-menu-logoFisio {
+    color: black;
+    font-weight: 500;
+}
+
+.my-menu-logoFit {
+    color: red;
+    font-weight: 500;
+}
+
+.my-menu-logoFormatacao {
+    text-decoration: none;
+}
+
+/* Links */
+.my-menu-links {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.my-menu-links:hover {
+    color: red;
+}
+
+/* Responsividade */
+@media (max-width: 990px) {
+    .my-menu-navbar .nav-item {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .my-menu-btnPerfil {
+        font-size: 20px;
+    }
+
+    .my-menu-responsividadeIconesBotao {
+        margin: 20px 0;
+    }
+}
+
+/* Btn Perfil */
+.my-menu-btnPerfil {
+    background-color: red;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.my-menu-btnPerfil:hover {
+    opacity: 75%;
+}
